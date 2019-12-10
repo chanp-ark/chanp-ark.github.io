@@ -3,8 +3,19 @@
 
 .project-description {
 	text-align: center;
-	height: 150px;
+	height: 25%;
 }
+
+.link-project {
+	display: flex;
+	flex-direction: row
+}
+
+.project-title {
+	margin-bottom: 1px;
+	text-align: center
+}
+
 
 /*
 	Massively by HTML5 UP
@@ -32,7 +43,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -273,11 +285,10 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 2px;
-		margin: 3rem 0;
 	}
 
 		hr.major {
-			margin: 5rem 0;
+			margin: 0;
 		}
 
 	.align-left {
