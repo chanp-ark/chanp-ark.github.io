@@ -1,9 +1,21 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+.crwn-des-of-des {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: "Merriweather", Georgia, serif;
+}
+
+#crwn-description {
+	padding-bottom: 40px;
+}
+
 .project-description {
 	text-align: center;
-	height: 25%;
+	height: 20%;
+	
 }
 
 .link-project {
@@ -41,7 +53,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -61,7 +74,7 @@ blockquote, q {
 	quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
@@ -2720,6 +2733,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 100%;
 			margin-left: 0;
+			margin-top: 20px
 		}
 
 			ul.actions.special li:first-child {
