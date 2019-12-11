@@ -2624,6 +2624,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.95);
+		overflow:hidden;
 	}
 
 		.image img {
@@ -2702,10 +2704,12 @@ input, select, textarea {
 		}
 
 		a.image:hover img {
-			-moz-transform: scale(1.05);
-			-webkit-transform: scale(1.05);
-			-ms-transform: scale(1.05);
-			transform: scale(1.05);
+			-moz-transform: scale(1.02);
+			-webkit-transform: scale(1.02);
+			-ms-transform: scale(1.02);
+			transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.95);
+			overflow:hidden;
+			opacity: 0.85;
 		}
 
 /* Actions */
